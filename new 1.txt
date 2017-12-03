@@ -1,0 +1,65 @@
+Cham-Cham and Placement
+Max. Marks 100
+Cham-cham is in final year of his college and likes to drink and party. So much so, he doesnt even care about his placement. Kumar being placement co-ordinator, needs to make sure he is placed. Hence he tells him the question and answer for the next company that is going to visit the campus. But, since its Cham-Cham, he forgets what the answer is and just remembers the question.
+
+He knows that he will be asked T questions, and in each question, he will be given a number N. Now given this N, he has to find sum of all such non-negative numbers, which are less than or equal to N, in which each pair of adjacent digits have max difference of 1. Now since interviewer feels that Cham-Cham knows the question already, he asks him to print total number of such numbers, their sum, and all such numbers in sorted order. Now we know Cham-Cham is tired from partying, lets help him write a code that can solve all the queries.
+
+INPUT:
+First line contains T, number of queries, and next T lines contain N for each query.
+
+OUTPUT:
+3 lines of output for each query. First line should contain total number of such numbers, followed by their sum in next line and in the last line, print all such numbers in sorted order.
+
+CONSTRAINTS:
+1 ≤ T ≤ 2000
+1 ≤ N ≤ 106
+
+Sample Input(Plaintext Link)
+ 1
+12
+Sample Output(Plaintext Link)
+ 13
+78
+0 1 2 3 4 5 6 7 8 9 10 11 12 
+Time Limit: 1 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: C, CPP, CLOJURE, CSHARP, GO, HASKELL, JAVA, JAVASCRIPT, JAVASCRIPT_NODE, LISP, OBJECTIVEC, PASCAL, PERL, PHP, PYTHON, RUBY, R, RUST, SCALA
+SUBMISSIONS
+////
+Navi is playing with some random numbers and he is interested in knowing the maximum XOR value of four minimum elements in a particular sub-array. Let's say Ai are the elements of sub-array where l<=i<=r ( l and r are the starting and ending index of sub-array respectively, both are inclusive) and A0, A1, A2, A3 are the four minimum elements, then he is interested in knowing A0(XOR) A1(XOR) A2(XOR)A3. Since there can be multiple sub-arrays having same XOR values of 4 minimum elements in it, so he wants the sub-array with the maximum length. If still multiple answers are possible then he will consider the lexicographically sorted order range. Since Navi is a beginner in programming so he is asking you for his help.
+
+Note: Navi consider starting index of an array as 1 instead of 0.
+
+Input
+
+First line will contain a T (number of test cases). Then for each test case, first line will have N. Then next line will contain N space separated integers of array (indexing is 1-based).
+
+Output
+
+For each test case print first line “Case #case_number:” then the next line should contain three space separated integers : l, r, and max_xor value in the sub-array Al … Ar for particular four minimum values in this sub-array.
+Constraints
+
+1 < = T < = 5
+4 < = N < = 2000
+
+0 < = Ai < = 109
+
+Sample Input(Plaintext Link)
+ 2
+6
+4 2 3 1 7 8
+10
+1 2 3 4 5 6 7 8 9 10
+Sample Output(Plaintext Link)
+ Case #1:
+3 6 13
+Case #2:
+5 10 12
+Time Limit: 1 sec(s) for each input file.
+Memory Limit: 256 MB
+Source Limit: 1024 KB
+Marking Scheme: Marks are awarded if any testcase passes.
+Allowed languages: C, CPP, CLOJURE, CSHARP, GO, HASKELL, JAVA, JAVASCRIPT, JAVASCRIPT_NODE, LISP, OBJECTIVEC, PASCAL, PERL, PHP, PYTHON, RUBY, R, RUST, SCALA
+SUBMISSIONSSkip
